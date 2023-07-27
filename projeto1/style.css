@@ -1,0 +1,53 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    text-align: center;
+  }
+  
+  /* Estilos para o planejamento da semana */
+  .week-plan {
+    margin-top: 20px;
+  }
+  
+  .days {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .day {
+    flex-basis: calc(14.2857% - 20px); /* 14.2857% para 7 dias, com espaçamento total de 20px entre eles */
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Para que o espaçamento seja incluído na largura */
+  }
+  
+  .muscle-group {
+    margin-bottom: 10px;
+  }
+  
+  .exercise-list {
+    margin-bottom: 10px;
+  }
+  
+  .sets-reps {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sets-reps label {
+    margin-right: 10px;
+  }
+  
